@@ -1,0 +1,7 @@
+@use 'abstracts/fonts' as *;
+@use 'abstracts/colors' as *;
+
+body {
+    font-size: $font-size;
+    color: $clr-white;
+}

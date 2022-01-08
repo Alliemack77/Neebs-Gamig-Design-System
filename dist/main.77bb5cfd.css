@@ -1,6 +1,72 @@
-/* Reset */
+/* Box-sizing rules*/
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/* Remove default margins */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 5em;
+}
+
+/* Set core body defaults */
 body {
-  background-color: lightblue;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for form elements */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove padding and styling on all ul's with a class */
+ul[class] {
+  list-style: none;
+  padding: 0;
+}
+
+/* A elements that don't have a class get defautl styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* remove animations for people who've turned them off */
+@media (prefers-reduced-motion: reduce) {
+  *,
+*::before,
+*::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+body {
+  font-size: 1.5rem;
+  color: white;
+}
+
+body {
+  background-color: black;
 }
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */
