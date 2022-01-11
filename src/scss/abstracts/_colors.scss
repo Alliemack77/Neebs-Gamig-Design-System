@@ -1,3 +1,17 @@
 $clr-black: hsl(0 0% 0%);
 $clr-white: hsl(0 0% 100%);
 $clr-logo: hsl(42 99% 58%);
+
+// background color utilities
+.bg-black { background-color: $clr-black ; }
+.bg-white { background-color: $clr-white ; }
+.bg-logo { background-color: $clr-logo ; }
+
+// text color utilities
+.text-black { color: $clr-black; }
+.text-white { color: $clr-white; }
+.text-logo { color: $clr-logo; }
+
+// shades 
+.example-component { background-color: transparentize($clr-logo, .5); }
+

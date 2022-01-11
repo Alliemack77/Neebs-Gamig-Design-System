@@ -1,0 +1,13 @@
+@use '../abstracts/variables' as *;
+
+.flex {
+    display: flex;
+    gap: $gap;
+}
+
+// equal columns
+.column {
+    flex: 1 1 auto;
+}
+
+
