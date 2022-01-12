@@ -1,5 +1,11 @@
-@use '../abstracts/' as *;
+@use '../abstracts/colors' as *;
+@use '../abstracts/fonts' as *;
 
-// body {
-//     //background-color: $clr-black;
-// }
+body {
+    font-family: $ff-heading;
+    font-size: $fs-400;
+    font-weight: $fw-300;
+    color: $clr-white;
+    background-color: $clr-black;
+}
+

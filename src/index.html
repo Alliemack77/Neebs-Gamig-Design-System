@@ -8,49 +8,90 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:wght@300;400;700&family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">  
 
     <link rel="stylesheet" href="scss/main.scss">
     
     <title>Neebs Gaming - Design System</title>
 </head>
-<body class="bg-black text-white">
+<body>
 
-    <div class="container">
-        <h1 class="text-white">Design System</h1>
+    <div class="container flow-xxl">
+        <h1 class="fs-500 uppercase">Design System</h1>
 
         <section id="colors">
-            <h2><span>01</span> Colors</h2>
+            <h2 class="numbered-title uppercase"><span>01</span> Colors</h2>
 
-            <div class="flex" >
-                <div class="column">
-                    <div style="padding: 3rem 1rem 1rem; border: 1px solid white;">
+            <div class="flex">
+                <div class="column flow-xs">
+                    <div class="ff-body fs-500 fw-500 " style="padding: 3rem 1rem 1rem; border: 1px solid white;">
                         #000000
                     </div>
-                    <p>RGB 0, 0, 0</p>
-                    <p>HSL 0°, 0%, 0%</p>
+                    <p><span>RGB</span> 0, 0, 0</p>
+                    <p><span>HSL</span> 0°, 0%, 0%</p>
                 </div>
 
-                <div class="column">
-                    <div class="bg-logo text-black" style="padding: 3rem 1rem 1rem;">
+                <div class="column flow-xs">
+                    <div class="bg-logo text-black ff-body fs-500 fw-500" style="padding: 3rem 1rem 1rem;">
                         #FEBF2B
                     </div>
-                    <p>RGB 254, 191, 43</p>
-                    <p>HSL 42°, 99%, 58%</p>
+                    <p><span>RGB</span> 254, 191, 43</p>
+                    <p><span>HSL</span> 42°, 99%, 58%</p>
                 </div>
 
-                <div class="column">
-                    <div class="bg-white text-black" style="padding: 3rem 1rem 1rem;">
+                <div class="column flow-xs">
+                    <div class="bg-white text-black ff-body fs-500 fw-500" style="padding: 3rem 1rem 1rem;">
                         #FFFFFF
                     </div>
-                    <p>RGB 255, 255, 255</p>
-                    <p>HSL 0°, 0%, 100%</p>
+                    <p><span>RGB</span> 255, 255, 255</p>
+                    <p><span>HSL</span> 0°, 0%, 100%</p>
                 </div>
 
             </div>
+        </section>
 
+        <section id="typography">
+            <h2 class="numbered-title uppercase"><span>02</span> Typography</h2>
+
+            <div class="flex">
+                <div class="column flow-xxl">
+                    <div>
+                        <p class="text-white-25">Heading 1 - Quicksand Bold - 48px - line height 1.1 </p>
+                        <p class="text-logo ff-body fs-800 fw-700" >The best gaming channel in the world</p>
+                    </div>
+                    <div>
+                        <p class="text-white-25">Heading 2 - Quicksand Regular - 24px </p>
+                        <p class="text-white-50 ff-body fs-500 fw-400 uppercase">Merch</p>
+                        <p class="ff-body fs-500 fw-400">ARK: Survival Evolved</p>
+                    </div>
+                    <div>
+                        <p class="text-white-25">Subheading 1 - Bangers - 96px - line height 1.1</p>
+                        <p class="ff-accent fs-900 letter-spacing-1">Appsro</p>
+                    </div>
+                </div>
+
+                <div class="column flow-xxl">
+                    <div>
+                        <p class="text-white-25">Subheading 2 - Quicksand Light - 32px - line height 1.1</p>
+                        <p class="ff-body fs-600 fw-300">aka Jon Etheridge</p>
+                    </div>
+                    <div>
+                        <p class="text-white-25">Navigaiton Text - Quicksand Regular - 18px </p>
+                        <p class="ff-body fw-400 uppercase">Home</p>
+                    </div>
+                    <div>
+                        <p class="text-white-25">Body - Quicksand Regular - 18px</p>
+                        <p class="ff-body fw-400" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="interactive">
+            <h2 class="numbered-title uppercase"><span>03</span> Interactive Elements</h2>
 
             
+
 
         </section>
 

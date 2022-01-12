@@ -1,3 +1,5 @@
+@use '../abstracts/fonts' as *;
+
 /* Box-sizing rules*/
 *, 
 *::after, 
@@ -15,6 +17,11 @@ h5,
 h6, 
 p {
     margin: 0;
+}
+
+h1, 
+h2 {
+    font-weight: $fw-400;
 }
 
 /* Set core body defaults */

@@ -1,3 +1,6 @@
+/* Colors */
+/* Shages */
+/* Background color utilities */
 .bg-black {
   background-color: black;
 }
@@ -10,6 +13,20 @@
   background-color: #febe2a;
 }
 
+/* Background shades */
+.bg-black-50 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bg-white-50 {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.bg-logo-50 {
+  background-color: rgba(254, 190, 42, 0.5);
+}
+
+/* Text color utilities */
 .text-black {
   color: black;
 }
@@ -22,10 +39,48 @@
   color: #febe2a;
 }
 
-.example-component {
-  background-color: rgba(254, 190, 42, 0.5);
+/* Text shades */
+.text-black-25 {
+  color: rgba(0, 0, 0, 0.75);
 }
 
+.text-white-25 {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.text-logo-25 {
+  color: rgba(254, 190, 42, 0.75);
+}
+
+.text-black-50 {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.text-white-50 {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.text-logo-50 {
+  color: rgba(254, 190, 42, 0.5);
+}
+
+.text-black-75 {
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.text-white-75 {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.text-logo-75 {
+  color: rgba(254, 190, 42, 0.25);
+}
+
+/* Font-sizes */
+/* Font-families */
+/* Font-weights */
+/*  Flex and Grid */
+/*  Flow */
 /* Font-sizes */
 /* Font-families */
 /* Font-weights */
@@ -46,6 +101,11 @@ h5,
 h6,
 p {
   margin: 0;
+}
+
+h1,
+h2 {
+  font-weight: 400;
 }
 
 /* Set core body defaults */
@@ -91,9 +151,9 @@ a:not([class]) {
     scroll-behavior: auto !important;
   }
 }
-/* Font-sizes */
-/* Font-families */
-/* Font-weights */
+/* Colors */
+/* Shages */
+/* Background color utilities */
 .bg-black {
   background-color: black;
 }
@@ -106,6 +166,20 @@ a:not([class]) {
   background-color: #febe2a;
 }
 
+/* Background shades */
+.bg-black-50 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bg-white-50 {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.bg-logo-50 {
+  background-color: rgba(254, 190, 42, 0.5);
+}
+
+/* Text color utilities */
 .text-black {
   color: black;
 }
@@ -118,13 +192,140 @@ a:not([class]) {
   color: #febe2a;
 }
 
-.example-component {
-  background-color: rgba(254, 190, 42, 0.5);
+/* Text shades */
+.text-black-25 {
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.text-white-25 {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.text-logo-25 {
+  color: rgba(254, 190, 42, 0.75);
+}
+
+.text-black-50 {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.text-white-50 {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.text-logo-50 {
+  color: rgba(254, 190, 42, 0.5);
+}
+
+.text-black-75 {
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.text-white-75 {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.text-logo-75 {
+  color: rgba(254, 190, 42, 0.25);
+}
+
+/* Font-family */
+.ff-heading {
+  font-family: "Poppins", sans-serif;
+}
+
+.ff-body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.ff-accent {
+  font-family: "Bangers", cursive;
+}
+
+/* Font-size */
+.fs-900 {
+  font-size: 6rem;
+}
+
+.fs-800 {
+  font-size: 3rem;
+}
+
+.fs-700 {
+  font-size: 2.25rem;
+}
+
+.fs-600 {
+  font-size: 2rem;
+}
+
+.fs-500 {
+  font-size: 1.5rem;
+}
+
+.fs-400 {
+  font-size: 1.125rem;
+}
+
+.fs-300 {
+  font-size: 1rem;
+}
+
+.fs-200 {
+  font-size: 0.875rem;
+}
+
+/* Font-weight */
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+/* Line-height */
+.fs-900,
+.fs-800,
+.fs-700 {
+  line-height: 1.1;
+}
+
+/* Character spacing */
+.letter-spacing-1 {
+  letter-spacing: 5px;
+}
+
+/* Random styles */
+.uppercase {
+  text-transform: uppercase;
+}
+
+.numbered-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.numbered-title span {
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.25);
+  margin-right: 0.75em;
 }
 
 body {
+  font-family: "Poppins", sans-serif;
   font-size: 1.125rem;
+  font-weight: 300;
   color: white;
+  background-color: black;
 }
 
 .container {
@@ -133,13 +334,43 @@ body {
   max-width: 87.5rem;
 }
 
+/*  Flex and Grid */
+/*  Flow */
 .flex {
   display: flex;
   gap: 2rem;
 }
 
 .column {
-  flex: 1 1 auto;
+  flex: 1 1 100%;
+}
+
+.flow-xs > * + * {
+  margin-top: 1rem;
+}
+
+.flow-sm > * + * {
+  margin-top: 1.5rem;
+}
+
+.flow-md > * + * {
+  margin-top: 2rem;
+}
+
+.flow-lg > * + * {
+  margin-top: 2.25rem;
+}
+
+.flow-xl > * + * {
+  margin-top: 3rem;
+}
+
+.flow-xxl > * + * {
+  margin-top: 4rem;
+}
+
+.flow-xxxl > * + * {
+  margin-top: 8rem;
 }
 
 .grid {
