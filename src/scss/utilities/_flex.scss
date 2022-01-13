@@ -2,12 +2,21 @@
 
 .flex {
     display: flex;
+    // flex-direction: column;
     gap: $gap;
+
+    // @media (min-width: 768px) {
+    //     flex-direction: row;
+    // }
 }
 
 // equal columns
 .column {
     flex: 1 1 100%;
+
+    // @media (min-width: 768px) {
+    //     flex: 1 1 100%;
+    // }
 }
 
 

@@ -1,5 +1,6 @@
 @use '../abstracts/variables' as *;
 
+/* Verticle flow */
 // selects any child element that has a directly adjacet sibiling (a sibling directly before it)
 .flow-xs > * + * {
     margin-top: $flow-space-xs;
@@ -29,3 +30,8 @@
     margin-top: $flow-space-xxxl;
 }
 
+
+/* Horizontal flow */
+.flow-horiz-sm > * + * {
+    margin-left: $flow-space-sm;
+}
