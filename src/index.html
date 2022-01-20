@@ -19,7 +19,7 @@
 </head>
 <body>
 
-    <div class="container flow-xxl">
+    <div class="container flow-xxxl">
         <h1 class="fs-500 uppercase">Design System</h1>
 
         <section id="colors">
@@ -59,27 +59,27 @@
             <div class="flex">
                 <div class="column flow-xxl">
                     <div>
-                        <p class="text-white-25">Heading 1 - Quicksand Bold - 48px - line height 1.1 </p>
+                        <p class="text-white-25">Heading 1 - Quicksand Bold - 48px</p>
                         <p class="text-logo ff-body fs-800 fw-700" >The best gaming channel in the world</p>
                     </div>
                     <div>
-                        <p class="text-white-25">Heading 2 - Quicksand Regular - 24px </p>
+                        <p class="text-white-25">Heading 2 - Quicksand Regular - 24px</p>
                         <p class="text-white-50 ff-body fs-500 fw-400 uppercase">Merch</p>
                         <p class="ff-body fs-500 fw-400">ARK: Survival Evolved</p>
                     </div>
                     <div>
-                        <p class="text-white-25">Subheading 1 - Bangers - 96px - line height 1.1</p>
+                        <p class="text-white-25">Subheading 1 - Bangers - 96px</p>
                         <p class="ff-accent fs-900 letter-spacing-1">Appsro</p>
                     </div>
                 </div>
 
                 <div class="column flow-xxl">
                     <div>
-                        <p class="text-white-25">Subheading 2 - Quicksand Light - 32px - line height 1.1</p>
+                        <p class="text-white-25">Subheading 2 - Quicksand Light - 32px</p>
                         <p class="ff-body fs-600 fw-300">aka Jon Etheridge</p>
                     </div>
                     <div>
-                        <p class="text-white-25">Navigaiton Text - Quicksand Regular - 18px </p>
+                        <p class="text-white-25">Navigaiton Text - Quicksand Regular - 18px</p>
                         <p class="ff-body fw-400 uppercase">Home</p>
                     </div>
                     <div>
@@ -93,29 +93,37 @@
         <section id="interactive">
             <h2 class="numbered-title uppercase"><span>03</span> Interactive Elements</h2>
 
-            <div style="margin-bottom: 50vh; ">
+            <div class="flex direction-column align-center flow-xxl " style="margin-bottom: 10vh;">
 
-                <div>
-                    <!-- Navigation -->
+                <!-- Navigation -->
+                <div class="flex direction-column align-center">
+                    <nav>
+                        <ul class="primary-navigation underline-indicators flex">
+                            <li class="active"><a class="text-white ff-body fs-400 fw-400 uppercase" href="">Active</a></li>
+                            <li><a class="text-white ff-body fs-400 fw-400 uppercase" href="">Hover</a></li>
+                            <li><a class="text-white ff-body fs-400 fw-400 uppercase" href="">Idle</a></li>
+                        </ul>
+                    </nav>
+                    <p>Different states of the main navigation</p>
+                    
                 </div>
 
                 <!-- Buttons -->
-                <div class="flex">
-                    <div class="column flow-sm" style="text-align: center;">
+                <div class="flex justify-center" style="gap: 10rem">
+                    <div class="flow-md" style="text-align: center;">
                         <a href="#" class="button outline text-logo fs-500 fw-500">join the party</a>
                         <p>Primary button with hover</p>
                     </div>
-                    <div class="column flow-sm" style="text-align: center;">
+                    <div class="flow-md" style="text-align: center;">
                         <a href="#" class="button icon text-logo fs-500 fw-500">watch more <i class="fas fa-arrow-right"></i></a>
                         <p>Secondary button with hover</p>
                     </div>
                 </div>
 
                 <!-- Social Bar -->
-                <div class="flow-sm" style="text-align: center;">
-                    <div>
+                <div class="flex direction-column align-center" >
+                    <div class="social-buttons flex">
                         <a href="" class="text-white fs-800"><i class="fab fa-youtube"></i></a>
-                        <a href="" class="text-white fs-800"><i class="fab fa-twitch"></i></a>
                         <a href="" class="text-white fs-800"><i class="fab fa-twitch"></i></a>
                         <a href="" class="text-white fs-800"><i class="fab fa-instagram"></i></a>
                         <a href="" class="text-white fs-800"><i class="fab fa-twitter"></i></a>
@@ -124,13 +132,17 @@
                     <p>Different states of the social bar</p>
                 </div>
 
-                <div>
-                    <!-- Slider -->
+                <!-- Dot Navigation -->
+                <div class="flex direction-column align-center">
+                    <div class="dot-indicators flex">
+                        <button aria-selected="true"><span class="sr-only">Slider title</span></button>
+                        <button aria-selected="false"><span class="sr-only">Slider title</span></button>
+                        <button aria-selected="false"><span class="sr-only">Slider title</span></button>
+                    </div>
+                    <p>Different states of the slider</p>
                 </div>
 
             </div>
-
-
         </section>
 
     </div>

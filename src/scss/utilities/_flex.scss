@@ -1,24 +1,24 @@
 @use '../abstracts/variables' as *;
 
 .flex {
-    display: flex;
-    // flex-direction: column;
-    gap: $gap;
+   display: flex;
+   gap: $gap;
+}
 
-    // @media (min-width: 768px) {
-    //     flex-direction: row;
-    // }
+.direction-column {
+    flex-direction: column;
 }
 
 // equal columns
 .column {
     flex: 1 1 100%;
-
-    // @media (min-width: 768px) {
-    //     flex: 1 1 100%;
-    // }
 }
 
+.justify-center {
+    justify-content: center;
+}
 
-
+.align-center {
+    align-items: center;
+}
 

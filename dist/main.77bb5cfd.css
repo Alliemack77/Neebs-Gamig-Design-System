@@ -50,6 +50,7 @@ select {
 ul[class] {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 /* A elements that don't have a class get defautl styles */
@@ -69,7 +70,7 @@ a:not([class]) {
   }
 }
 /* Colors */
-/* Shages */
+/* Shades */
 /* Background color utilities */
 .bg-black {
   background-color: black;
@@ -83,7 +84,7 @@ a:not([class]) {
   background-color: #febe2a;
 }
 
-/* Background shades */
+/* Background utility shades */
 .bg-black-50 {
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -109,7 +110,7 @@ a:not([class]) {
   color: #febe2a;
 }
 
-/* Text shades */
+/* Text utility shades */
 .text-black-25 {
   color: rgba(0, 0, 0, 0.75);
 }
@@ -258,8 +259,20 @@ body {
   gap: 2rem;
 }
 
+.direction-column {
+  flex-direction: column;
+}
+
 .column {
   flex: 1 1 100%;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
 }
 
 /* Verticle flow */
@@ -315,7 +328,7 @@ body {
 }
 
 /* Colors */
-/* Shages */
+/* Shades */
 /* Background color utilities */
 .bg-black {
   background-color: black;
@@ -329,7 +342,7 @@ body {
   background-color: #febe2a;
 }
 
-/* Background shades */
+/* Background utility shades */
 .bg-black-50 {
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -355,7 +368,7 @@ body {
   color: #febe2a;
 }
 
-/* Text shades */
+/* Text utility shades */
 .text-black-25 {
   color: rgba(0, 0, 0, 0.75);
 }
@@ -450,6 +463,45 @@ body {
   top: 10px;
 }
 
-/* Social bar */
+/* Social buttons */
+.social-buttons > *:hover {
+  color: #febe2a;
+}
+
+/* Main navigation */
+.primary-navigation a {
+  text-decoration: none;
+}
+
+.underline-indicators > * {
+  padding: 0.75rem 0;
+  border-bottom: 2px solid transparent;
+}
+
+.underline-indicators > *:hover, .underline-indicators > *:focus {
+  border-bottom: 2px solid rgba(254, 190, 42, 0.5);
+}
+
+.underline-indicators > *.active {
+  border-bottom: 2px solid #febe2a;
+}
+
+/* Slider navigation dots */
+.dot-indicators > * {
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.25);
+  border: none;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  cursor: pointer;
+}
+
+.dot-indicators > *:hover, .dot-indicators > *:focus {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.dot-indicators > *[aria-selected=true] {
+  background-color: white;
+}
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */

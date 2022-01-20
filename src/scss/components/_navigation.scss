@@ -1,0 +1,42 @@
+@use 'abstracts/colors' as *;
+
+/* Main navigation */
+.primary-navigation a {
+    text-decoration: none;
+}
+
+.underline-indicators > * {
+    padding: .75rem 0;
+    border-bottom: 2px solid transparent;
+
+    &:hover,
+    &:focus {
+        border-bottom: 2px solid $logo-50;
+    }
+
+    &.active {
+        // color: $clr-logo;
+        border-bottom: 2px solid $clr-logo;
+    }
+}
+
+/* Slider navigation dots */
+.dot-indicators > * {
+    padding: .5rem;
+    background-color: $white-75;
+    border: none;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    cursor: pointer;
+
+    &:hover, 
+    &:focus {
+        background-color: $white-50;
+    }
+    
+    &[aria-selected="true"] {
+        background-color: $clr-white;
+    }
+}
+
+
